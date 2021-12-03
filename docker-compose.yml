@@ -7,7 +7,7 @@ services:
  web:
   build:
    context: .
-  container_name: app
+  container_name: web
   ports:
   - 5000:5000
   volumes:

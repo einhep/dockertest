@@ -3,4 +3,5 @@
 __pycache__/*
 .idea/*
 
-data/
+data/mysql_data/*
+instance/
