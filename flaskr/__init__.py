@@ -24,8 +24,8 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        from flaskr.db import DataFeed
-        ddf = DataFeed()
+        from flaskr.db import DataBase
+        ddf = DataBase()
         return ddf.init_db()
 
     return app
